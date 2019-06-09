@@ -1,0 +1,8 @@
+[{
+	"testCase": "Create account",
+	"responsible": "jonatas.kirsch"
+},
+{
+	"testCase": "Login",
+	"responsible": "jonatas.kirsch"
+}]
