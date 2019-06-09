@@ -120,7 +120,7 @@ function getResponsible(testCaseName){
 /*Sends the report to responsible*/
 function messaging(testCase, responsible){
 	var Slack = require('slack-node');
-	var webhookUri = "https://hooks.slack.com/services/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";
+	var webhookUri = "https://hooks.slack.com/services/<your webhook code here>";
 	var	slack = new Slack();
 	slack.setWebhook(webhookUri);
 	
